@@ -1,0 +1,20 @@
+<suite name="yahoo_suite">
+  <test name="tst_firefox">
+   <parameter name="browser" value="firefox" />
+    <classes>
+       <class name="P1.Test_prog" />
+       <methods>
+         <include name="run_method" />
+       </methods>
+    </classes>
+  </test>
+  <test name="tst_ie">
+   <parameter name="browser" value="ie" />
+    <classes>
+       <class name="P1.Test_prog" />
+       <methods>
+         <include name="run_method" />
+       </methods>
+    </classes>
+  </test>
+</suite>
